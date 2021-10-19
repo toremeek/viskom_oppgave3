@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#010101;}
+	.st2{fill:#FCB415;}
+	.st3{fill:url(#SVGID_1_);}
+	.st4{fill:#FFFFFF;}
+	.st5{font-family:'Roboto-Black';}
+	.st6{font-size:60.1244px;}
+	.st7{font-size:41.1866px;}
+	.st8{font-size:16px;}
+	.st9{fill:none;stroke:#FFFFFF;stroke-width:5.5227;stroke-miterlimit:10;}
+	.st10{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:2.9672;stroke-miterlimit:10;}
+</style>
+<pattern  width="183.56" height="110.46" patternUnits="userSpaceOnUse" id="New_Pattern_2" viewBox="0 -110.46 183.56 110.46" style="overflow:visible;">
+	<g>
+		<rect y="-110.46" class="st0" width="183.56" height="110.46"/>
+		<g>
+			<rect y="-22.09" class="st1" width="183.56" height="14.57"/>
+			<rect y="-7.52" class="st2" width="183.56" height="7.52"/>
+		</g>
+		<g>
+			<rect y="-44.18" class="st1" width="183.56" height="14.57"/>
+			<rect y="-29.61" class="st2" width="183.56" height="7.52"/>
+		</g>
+		<g>
+			<rect y="-66.27" class="st1" width="183.56" height="14.57"/>
+			<rect y="-51.7" class="st2" width="183.56" height="7.52"/>
+		</g>
+		<g>
+			<rect y="-88.37" class="st1" width="183.56" height="14.57"/>
+			<rect y="-73.79" class="st2" width="183.56" height="7.52"/>
+		</g>
+		<g>
+			<rect y="-110.46" class="st1" width="183.56" height="14.57"/>
+			<rect y="-95.88" class="st2" width="183.56" height="7.52"/>
+		</g>
+	</g>
+</pattern>
+<pattern  id="SVGID_1_" xlink:href="#New_Pattern_2" patternTransform="matrix(-0.4334 -0.9012 0.9012 -0.4334 -4398.1699 -17520.1113)">
+</pattern>
+<circle class="st3" cx="256.35" cy="252.88" r="157.84"/>
+<circle class="st4" cx="223.59" cy="329.46" r="81.89"/>
+<text transform="matrix(1 0 0 1 161.0292 335.0862)"><tspan x="0" y="0" class="st1 st5 st6">27</tspan><tspan x="69.64" y="0" class="st1 st5 st7">.5%</tspan></text>
+<text transform="matrix(1 0 0 1 178.9542 362.8304)"><tspan x="0" y="0" class="st1 st5 st8">Kvinneandel</tspan><tspan x="-3.11" y="16" class="st1 st5 st8">administrativ</tspan><tspan x="26.2" y="32" class="st1 st5 st8">leder</tspan></text>
+<circle class="st9" cx="325.37" cy="173.52" r="33.47"/>
+<circle class="st10" cx="211.78" cy="197.69" r="17.98"/>
+</svg>

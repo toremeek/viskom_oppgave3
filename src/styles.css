@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: Roboto, sans-serif;
+  max-width: 1600px;
+  width: 100%;
+  margin: auto;
+}
+.container {
+  display: flex;
+  max-width: 100%;
+  margin: 10rem auto 5rem auto;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
+#barConatiner {
+  max-width: 80%;
+  margin: auto;
+}
+#number,
+#numberMenn {
+  font-size: 5rem;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+
+  color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 600px) {
+  #number,
+  #numberMenn {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  #menn {
+    width: 50%;
+    margin: auto;
+  }
+  #kvinner {
+    width: 50%;
+    margin: auto;
+  }
+}
+#messageOne,
+#messageMenn {
+  font-size: 3rem;
+  width: 100%;
+  padding: 0;
+  margin: 3rem auto;
+  color: #fff;
+}
+p {
+  text-align: center;
+}
+
+.bar2 {
+  width: 80%;
+  height: 40px;
+  margin: Auto;
+  max-width: 1000px;
+  max-height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  animation-name: fadein;
+  animation-duration: 4s;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacityt: 1;
+  }
+}
+
+#kb2,
+#mb2 {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  border-radius: 10px;
+  background: url(/bilder/bar_grafikk.png);
+  background-size: fit;
+}
+#kb2 {
+  border: 2px solid white;
+}
+#mb2 {
+  border: 2px solid white;
+}
+
+img {
+  height: 100%;
+  max-width: 1500px;
+  margin: auto;
+  background: white;
+}
+
+#barTittel {
+  font-size: 4rem;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  color: #ffb400;
+  margin: 4rem auto;
+  animation-name: fadein;
+  animation-duration: 6s;
+}
+
+#introTittel {
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  width: 90%;
+}
+
+.textbox {
+  width: 80%;
+  margin: 50vh auto;
+  height: 100vh;
+}
+h1 {
+  color: white;
+}
+
+#introContainer {
+  min-height: 100vh;
+  margin: auto;
+}
+
+#knapp {
+  display: none;
+  color: black;
+  background-color: white;
+  border: none;
+  width: 30%;
+  height: 75px;
+  margin: 8rem auto;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+#kvinner #menn {
+  margin: auto;
+}
+
+#svg {
+  width: 90%;
+  margin: auto;
+}
+#infografikk {
+  width: 100%;
+}
+#bane {
+  background-image: url(/bilder/bane.png);
+  width: 100%;
+}
+
+.parallax {
+  width: 100%;
+  margin: auto;
+  padding: 5rem 0rem;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1600px) {
+  .parallax {
+    background-size: contain;
+    width: 1600px;
+    background-attachment: contain;
+  }
+}
+
+.parallax p {
+  width: 70%;
+  max-width: 25rem;
+  margin: 100vh auto;
+  padding: 4rem;
+  font-size: 1.4rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.616);
+}
+
+#barTittel {
+  width: 60%;
+}
+
+.grafikk {
+  width: 50%;
+  padding: 1rem 4rem;
+  margin: 100vh auto;
+  background: rgba(0, 0, 0, 0.616);
+  text-align: center;
+}
+
+.grafikk img {
+  width: 100%;
+  background: 0;
+}
+
+.grafikk2 {
+  width: 35%;
+  padding: 0;
+  margin: 100vh auto;
+  background: rgba(0, 0, 0, 0.616);
+  text-align: center;
+}
+
+.grafikk2 img {
+  width: 100%;
+  background: 0;
+}
+
+.article {
+  width: 100%;
+  max-width: 1600px;
+  margin: auto;
+  padding: 5rem 0rem;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1600px) {
+  .article {
+    background-size: contain;
+    max-width: 1210px;
+  }
+}
+
+.article h1 {
+  font-size: 6rem;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  color: black;
+  margin: 3rem auto;
+}
+
+.article p {
+  text-align: left;
+}
+#hallen {
+  background-image: url(/bilder/saken/hallen.jpg);
+  width: 100%;
+}
+
+.articleWrapper {
+  width: 60%;
+  margin: 80vh auto;
+  background: rgb(255, 255, 255);
+  padding: 3rem;
+}
+.nina {
+  width: 25%;
+  padding: 0;
+  float: right;
+  margin: 2rem 0 2rem 2rem;
+}
+.nina img {
+  width: 100%;
+}
+.spillerne {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.spillerne img {
+  width: 100%;
+}
+.treneren {
+  width: 25%;
+  padding: 0;
+  float: left;
+  margin: 2rem 2rem 2rem 0;
+}
+.treneren img {
+  width: 100%;
+}
+
+#mellomtittel {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+#kilde {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 1rem;
+  width: 100%;
+  margin: auto;
+}
